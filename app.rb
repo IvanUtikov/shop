@@ -6,14 +6,6 @@ get '/' do
 	erb :index
 end
 
-get '/aboutus' do
+get '/about' do
 	erb :about
-end
-
-get '/visit' do
-	erb :visit
-end
-
-get '/contact' do
-erb :contact
 end
